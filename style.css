@@ -1,0 +1,21 @@
+/* theme.css – CHỈ làm đẹp phần thân bài ở detail.html; trang chủ, menu, font tiêu đề giữ như ban đầu */
+.layout>.article,.layout>.side{background:#fff;border-radius:10px;padding:30px 34px;box-shadow:0 1px 8px rgba(0,0,0,.07);align-self:start}
+.layout>.side{padding:24px}
+.article h1{font-size:2.15rem}
+.byline{align-items:center}
+.sapo{border-left:4px solid var(--green);padding-left:16px;color:#26332c;font-weight:600}
+.hero{margin:0 0 6px;border-radius:6px}
+.hero-cap{font-size:.88rem;font-style:italic;color:var(--muted);text-align:center;margin:0 0 24px}
+.body{max-width:720px;margin:0 auto}
+.body p{font-size:1.1rem;line-height:1.85;text-align:justify;margin:0 0 1.25em;color:#222b26}
+.body p:first-child::first-letter{font-size:3.2rem;font-weight:700;float:left;line-height:.9;margin:6px 8px 0 0;color:var(--green);font-family:Georgia,serif}
+.side h2{margin-bottom:8px}
+.rel:last-child{border-bottom:0}
+@media(max-width:900px){.layout>.article,.layout>.side{padding:18px}.body p{text-align:left}}
+
+
+/* Breadcrumb nằm riêng phía trên khung bài viết, cách thanh menu một khoảng */
+main{padding-top:36px}
+.crumbs{margin:0 0 18px;font-size:.95rem;font-weight:700;text-transform:uppercase;letter-spacing:.01em}
+.crumbs span{color:var(--muted);font-weight:400}
+
